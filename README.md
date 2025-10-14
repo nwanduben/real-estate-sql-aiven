@@ -29,6 +29,24 @@ All datasets used in this project are publicly viewable via Google Drive.
 | median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
 | top_residential_types.csv | Top residential types by average price | [View on Drive](https://drive.google.com/file/d/1Isn0JsmpgRhqBvsmQm-siLIcaeB0KDg2/view) |
 
+##  Reproducibility Guide
+
+Follow these steps to recreate the database, run the SQL analysis, and generate the reports.
+
+
+### 1️⃣ Create a PostgreSQL Database (Aiven or Local)
+
+You can use one of the following methods:
+
+- **Aiven for PostgreSQL (cloud-hosted):** [aiven.io/postgresql](https://aiven.io/postgresql)  
+- **Local setup (Homebrew or Docker):**
+  ```bash
+  createdb real_estate_db
+  
+### 2️⃣ Load the Dataset and Perform SQL analysis
+```bash
+python src/load_aiven.py --csv data/raw/sample_real_estate.csv --table real_estate_sales
+psql -d real_estate_db -f src/queries.sql
 
 
 
