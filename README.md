@@ -21,13 +21,13 @@ All datasets used in this project are publicly viewable via Google Drive.
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
 | Real_Estate_Sales_2001-2022_GL.csv | Full Connecticut real estate sales data (2001-2022) | [View on Drive](https://drive.google.com/file/d/1D-pjbsFmRFcPjBzEFhdIB896lGhTYRW3/view) |
-| sample_real_estate.csv | Lightweight 1 000-row sample for quick testing | [View on Drive](https://drive.google.com/drive/u/0/folders/1tv9D93a0vPIV03RirIVUAOidPZ_xbVYd) |
-| yearly_sales.csv | Yearly total sales summary | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
-| top_towns.csv | Top 10 towns by average sale price | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
-| avg_sale_trend.csv | Average sale trend by year | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
-| corr_assessed_sale.csv | Correlation between assessed value and sale price | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
-| median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
-| top_residential_types.csv | Top residential types by average price | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
+| sample_real_estate.csv | Lightweight 1 000-row sample for quick testing | [View on Drive](https://drive.google.com/file/d/1G-k8sBVFbNfT9ibshvrNE4_BO10n84bS/view) |
+| yearly_sales.csv | Yearly total sales summary | [View on Drive](https://drive.google.com/file/d/1o8OF3dhJw89d0nJHswpOWC7EPAYaQYOK/view) |
+| top_towns.csv | Top 10 towns by average sale price | [View on Drive](https://drive.google.com/file/d/1uNlQ02T8XNQrKnhLLUyW6rFWqZmkJ9Qp/view) |
+| avg_sale_trend.csv | Average sale trend by year | [View on Drive](https://drive.google.com/file/d/1QDGBE0roR_Cc9NoXt0_ouDqPEUS_FDu2/view) |
+| corr_assessed_sale.csv | Correlation between assessed value and sale price | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
+| median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
+| top_residential_types.csv | Top residential types by average price | [View on Drive](https://drive.google.com/file/d/1Isn0JsmpgRhqBvsmQm-siLIcaeB0KDg2/view) |
 
 
 
