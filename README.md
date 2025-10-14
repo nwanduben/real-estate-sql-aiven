@@ -29,10 +29,11 @@ All datasets used in this project are publicly viewable via Google Drive.
 | median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
 | top_residential_types.csv | Top residential types by average price | [View on Drive](https://drive.google.com/file/d/1Isn0JsmpgRhqBvsmQm-siLIcaeB0KDg2/view) |
 
-##  Reproducibility Guide
+## ⚡️ Reproducibility Guide
 
 Follow these steps to recreate the database, run the SQL analysis, and generate the reports.
 
+---
 
 ### 1️⃣ Create a PostgreSQL Database (Aiven or Local)
 
@@ -42,11 +43,33 @@ You can use one of the following methods:
 - **Local setup (Homebrew or Docker):**
   ```bash
   createdb real_estate_db
-  
-### 2️⃣ Load the Dataset and Perform SQL analysis
-```bash
+2️⃣ Load the Dataset
+
+Run the Python ETL script:
+
+
 python src/load_aiven.py --csv data/raw/sample_real_estate.csv --table real_estate_sales
+
+
+This script will:
+
+- Read and clean the CSV
+
+- Remove duplicates
+
+- Create a PostgreSQL table named real_estate_sales
+
+- Insert all rows using efficient psycopg2 bulk inserts
+
+3️⃣ Run the SQL Analysis
+
+Execute all SQL analysis queries:
+
 psql -d real_estate_db -f src/queries.sql
+
+Export query results to CSV files:
+
+\copy (SELECT * FROM yearly_sales) TO 'reports/summary/yearly_sales.csv' WITH CSV HEADER;
 
 
 
