@@ -20,7 +20,7 @@ All datasets used in this project are publicly viewable via Google Drive.
 
 | Dataset | Description | Download Link |
 |----------|--------------|----------------|
-| Real_Estate_Sales_2001-2022_GL.csv | Full Connecticut real estate sales data (2001-2022) | [View on Drive](https://drive.google.com/drive/u/0/folders/1tv9D93a0vPIV03RirIVUAOidPZ_xbVYd) |
+| Real_Estate_Sales_2001-2022_GL.csv | Full Connecticut real estate sales data (2001-2022) | [View on Drive](https://drive.google.com/file/d/1D-pjbsFmRFcPjBzEFhdIB896lGhTYRW3/view) |
 | sample_real_estate.csv | Lightweight 1 000-row sample for quick testing | [View on Drive](https://drive.google.com/drive/u/0/folders/1tv9D93a0vPIV03RirIVUAOidPZ_xbVYd) |
 | yearly_sales.csv | Yearly total sales summary | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
 | top_towns.csv | Top 10 towns by average sale price | [View on Drive](https://drive.google.com/drive/u/0/folders/1c7s_yb0IPsSM4eXjkAXrIf8d9UlY_g9e) |
