@@ -26,7 +26,7 @@ All datasets used in this project are publicly viewable via Google Drive.
 | top_towns.csv | Top 10 towns by average sale price | [View on Drive](https://drive.google.com/file/d/1uNlQ02T8XNQrKnhLLUyW6rFWqZmkJ9Qp/view) |
 | avg_sale_trend.csv | Average sale trend by year | [View on Drive](https://drive.google.com/file/d/1QDGBE0roR_Cc9NoXt0_ouDqPEUS_FDu2/view) |
 | corr_assessed_sale.csv | Correlation between assessed value and sale price | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
-| median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/file/d/1LNG-niEvqQC_BgsvaZ5uCXb66C6iPr-W/view) |
+| median_property_type.csv | Median sale price by property type | [View on Drive](https://drive.google.com/file/d/1oboZ-SKlGj4exCK-FXAniKSPdaRicDkr/view) |
 | top_residential_types.csv | Top residential types by average price | [View on Drive](https://drive.google.com/file/d/1Isn0JsmpgRhqBvsmQm-siLIcaeB0KDg2/view) |
 
 ## ⚡️ Reproducibility Guide
